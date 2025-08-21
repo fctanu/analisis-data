@@ -1,0 +1,49 @@
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code settings (keep if you want to share settings)
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs / databases / misc
+*.log
+*.sqlite
+*.db
+
+# Distribution / packaging
+pip-wheel-metadata/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Others you may add later:
+# data/raw/
+# data/interim/
+# data/processed/
